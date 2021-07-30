@@ -62,10 +62,10 @@ function timerOnInput(event) {
       icon: 'error',
     });
     startButton.setAttribute("disabled", true)
-    ref.daysEl.textContent = '00'
-    ref.hoursEl.textContent = '00'
-    ref.minutesEl.textContent = '00'
-    ref.secondsEl.textContent = '00'
+    refs.daysEl.textContent = '00'
+    refs.hoursEl.textContent = '00'
+    refs.minutesEl.textContent = '00'
+    refs.secondsEl.textContent = '00'
 } else {
   startButton.removeAttribute("disabled", true)
 }
